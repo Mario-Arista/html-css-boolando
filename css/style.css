@@ -5,4 +5,28 @@
 }
 /* Reset Rules  */
 
+/* Classes for POSITION  */
 
+.ps-fixed {
+    position: fixed;
+}
+
+.ps-absolute {
+    position: absolute;
+}
+
+.ps-relative {
+    position: relative;
+}
+
+.z-index-one {
+    z-index: 1;
+}
+
+.z-index-two {
+    z-index: 2;
+}
+
+.z-index-three {
+    z-index: 3;
+}
