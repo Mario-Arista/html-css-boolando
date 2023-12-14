@@ -47,7 +47,11 @@
 
 /* END Classes for FLEX  */
 
+/* Header Rules  */
+
 header {
+
+    width: 100%;
     background-color: #EF6837;
     border: 2px solid #C6C2BB;
     padding: 20px;
@@ -58,7 +62,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    width: 70%;
+    width: 80%;
 }
 
 nav menu {
@@ -99,4 +103,46 @@ nav .icons {
     max-width: 50px;
 
     color: white;
+}
+
+/* END Header Rules  */
+
+/* Main with products  Rules */
+
+main {
+    width: 80%;
+
+    margin: 0 auto;
+    margin-top: 40px;
+
+    /* test  */
+    background-color: grey;
+}
+
+main .product {
+    
+    float: left;
+
+    margin-left: 20px;
+}
+
+main::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+main .product .images {
+    display: inline-block;
+
+    width: (100 / 3 -20);
+
+    /* Test  */
+    background-color: red;
+}
+
+
+main .product .images img:first-child {
+    max-width: 230px;
+    height: auto;
 }
