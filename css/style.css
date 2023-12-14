@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 /* Reset Rules  */
 
@@ -45,3 +46,57 @@
 }
 
 /* END Classes for FLEX  */
+
+header {
+    background-color: #EF6837;
+    border: 2px solid #C6C2BB;
+    padding: 20px;
+}
+
+nav {
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 70%;
+}
+
+nav menu {
+    max-width: 80px;
+    gap: 8px;
+}
+
+nav menu .voice {
+    
+    
+    list-style-type: none;
+}
+
+nav menu .voice .link {
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+nav .logo {
+    justify-content: center;
+    flex-grow: 1;
+}
+
+nav img {
+
+    width: 130px;
+}
+
+
+nav .icons {
+    gap: 8px;
+
+    max-width: 50px;
+
+    color: white;
+}
