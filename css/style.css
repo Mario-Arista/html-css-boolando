@@ -56,11 +56,14 @@
 
 .product:hover .container img:first-child {
     display: none;
+    transition: transform 1s linear;
 
 }
 
 .product:hover .container img:nth-child(2) {
     display: inline-block;
+    transition: transform 1s linear;
+
 }
 
 .hearth:hover {
