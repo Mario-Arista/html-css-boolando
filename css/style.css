@@ -10,6 +10,7 @@
 
 .ps-fixed {
     position: fixed;
+    top: 0px;
 }
 
 .ps-absolute {
@@ -72,7 +73,6 @@ nav menu {
 
 nav menu .voice {
     
-    
     list-style-type: none;
 }
 
@@ -113,7 +113,7 @@ main {
     width: 80%;
 
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 100px;
 
 }
 
@@ -134,12 +134,13 @@ main .product .container {
     display: block;
 
     width: (100 / 3 -20);
+    margin-bottom: 40px;
 
 }
 
 
 main img {
-    max-width: 230px;
+    max-width: 330px;
     height: auto;
 }
 
