@@ -30,3 +30,18 @@
 .z-index-three {
     z-index: 3;
 }
+
+/* END Classes for POSITION  */
+
+/* Classes for FLEX  */
+
+.flex {
+    display: flex;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+/* END Classes for FLEX  */
