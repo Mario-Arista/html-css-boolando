@@ -52,6 +52,23 @@
 
 /* END Classes for FLEX  */
 
+/* Hover Rules  */
+
+.product:hover .container img:first-child {
+    display: none;
+
+}
+
+.product:hover .container img:nth-child(2) {
+    display: inline-block;
+}
+
+.hearth:hover {
+    color: red;
+}
+
+/* END Hover Rules  */
+
 /* Header Rules  */
 
 header {
@@ -137,7 +154,7 @@ main .product {
 main .product .container {
     display: block;
 
-    width: (100 / 3 -20);
+    width: (100 / 3);
     margin-bottom: 40px;
 
 }
