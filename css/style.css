@@ -13,6 +13,10 @@
     top: 0px;
 }
 
+.top-fixed {
+    top: 0px;
+}
+
 .ps-absolute {
     position: absolute;
 }
@@ -107,7 +111,7 @@ nav .icons {
 
 /* END Header Rules  */
 
-/* Main with products  Rules */
+/* Main with Rules valid for every product */
 
 main {
     width: 80%;
@@ -205,12 +209,6 @@ main .product .container .discount {
     color: black;
 }
 
-.cloth {
-    
-    font-size: 1em;
-    font-weight: bold;
-    color: black;
-}
 
 .red-text {
     font-size: 0.8em;
@@ -224,4 +222,74 @@ main .product .container .discount {
     text-decoration: line-through;
 
     color: black;
+}
+
+#unique {
+
+    left: 0px;
+    bottom: 80px;
+
+    height: 25px;
+
+    padding: 3px 6px;
+
+    font-size: 0.7em;
+    font-weight: bold;
+    background-color: green;
+}
+/* END Main with Rules valid for every product */
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+
+    padding: 20px;
+
+    background-color: #181818;
+    color: white;
+
+}
+
+footer .container {
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+}
+
+
+footer .container .legal-info {
+    flex-direction: column;
+    max-width: 600px;
+    gap: 8px;
+}
+
+#company {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#policies {
+    gap: 8px;
+
+    list-style-type: none;
+
+    font-size: 0.8em;
+
+}
+
+footer .container .social div:first-child {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer .container .social div:last-child {
+    padding-top: 4px;
+    gap: 8px;
+}
+
+footer .container .social div:last-child i {
+    font-size: 1.7em;
 }
