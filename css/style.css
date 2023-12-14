@@ -115,8 +115,6 @@ main {
     margin: 0 auto;
     margin-top: 40px;
 
-    /* test  */
-    background-color: grey;
 }
 
 main .product {
@@ -132,26 +130,30 @@ main .product {
     content: "";
 }
 
-main .product .images {
-    display: inline-block;
+main .product .container {
+    display: block;
 
     width: (100 / 3 -20);
 
-    /* Test  */
-    background-color: red;
 }
 
 
-main .product .images img:first-child {
+main img {
     max-width: 230px;
     height: auto;
 }
 
-main .product .images .discount {
+.product .container img:nth-child(2) {
+    display: none;
+}
+
+
+
+main .product .container .discount {
 
     height: 25px;
     left: 0px;
-    bottom: 40px;
+    bottom: 80px;
 
     padding: 3px 6px;
 
@@ -160,10 +162,10 @@ main .product .images .discount {
     background-color: red;
 }
 
-main .product .images .argument {
+.argument {
 
     left: 50px;
-    bottom: 40px;
+    bottom: 80px;
 
     height: 25px;
 
@@ -174,7 +176,7 @@ main .product .images .argument {
     background-color: green;
 }
 
-main .product .images .hearth {
+.hearth {
 
     right: 0px;
     top: 10px;
@@ -186,6 +188,39 @@ main .product .images .hearth {
     color: black;
 }
 
-main .product .images .hearth i {
-    display: inline-block;
+.brand {
+    padding-top: 5px;
+    left: 20px;
+    bottom: 20px;
+
+    font-size: 0.8em;
+    color: grey;
+}
+
+.cloth {
+    
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+.cloth {
+    
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+.red-text {
+    font-size: 0.8em;
+    font-weight: bold;
+
+    color: red;
+}
+
+.x-text {
+    font-size: 0.8em;
+    text-decoration: line-through;
+
+    color: black;
 }
