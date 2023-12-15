@@ -145,8 +145,22 @@ main .product {
 
     float: left;
 
-    margin-left: 20px;
+
+    padding-left: 20px;
 }
+
+main .product:nth-child(3n + 1) {
+
+
+    padding-right: 0px;
+}
+
+main .product:nth-child(3) {
+
+
+    padding-left: 0px;
+}
+
 
 .clearfix::after {
     clear: both;
@@ -158,13 +172,13 @@ main .product .container {
     display: block;
 
     width: (100 / 3);
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 
 }
 
 
 main img {
-    max-width: 330px;
+    max-width: 365px;
     height: auto;
 }
 
